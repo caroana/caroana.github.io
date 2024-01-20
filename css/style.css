@@ -46,7 +46,7 @@ h1, h2, h3, h4, h5, h6, p {
   z-index: 11;
   top: 0;
   display: grid;
-  grid-template-columns: 10% auto; 
+  grid-template-columns: 12.5% auto; 
 }
 .toolbar .nombre {
   font-size: 1rem;
@@ -71,11 +71,12 @@ h1, h2, h3, h4, h5, h6, p {
 
 }
 .toolbar .logo img {
+  width: 100%;
   border-radius: 50%;
   border-color: white;
   border-width: 5px ;
-  margin-right: 1.25rem;
-  margin-top: 4rem;
+  margin-right: 1.45rem;
+  margin-top: 6rem;
   position:absolute ;
   box-shadow: rgba(0,0,0,00.15)1.95px 1.95px 2.6px;
 }
@@ -163,6 +164,7 @@ h1, h2, h3, h4, h5, h6, p {
 .banner {
 
   width: 100%;
+  border-top-right-radius: 0.8rem;
 }
 .banner .contenedor-banner {
   height: 50%;
@@ -170,11 +172,13 @@ h1, h2, h3, h4, h5, h6, p {
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  border-top-right-radius: 0.8rem;
 }
 
 .banner .contenedor-banner img{
   width: 100%;
-  height: 230px;
+  height: 200px;
+
   }
 
 @keyframes fadeIn {
@@ -474,7 +478,7 @@ h6 {
   transition: all 0.5s;
   z-index: 997;
   transition: all 0.5s;
-  height: 60px;
+  height: 80px;
   background: #fff;
   box-shadow: 0px 0px 20px 0px rgba(0, 0, 0, 0.12);
 }
@@ -506,13 +510,13 @@ h6 {
   text-align: center;
 }
 #header  .foto_perfil  img {
-  width: 100px;
-  height: 100px;
+  width: 90px;
+  height: 90px;
   border-radius: 50%;
   border-style: solid;
-  border-width: 5px ;
+  border-width: 3.5px ;
   border-color: grey!important;
-  margin-right: 1.25rem;
+  margin-right: 1.5rem;
 }
 
 .scrolled-offset {
