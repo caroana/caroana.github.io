@@ -145,21 +145,7 @@ h1, h2, h3, h4, h5, h6, p {
 .menu_two .contenedor-menu a:hover {
   color: #ff914d;
 }
-/* .menu .idiomas {
-  display: none;
-  grid-template-columns: repeat(auto-fit, minmax(1.5625rem, 1fr));
-  align-items: center;
-  text-align: center;
-}
-.menu .idiomas img.active {
-  opacity: 0.5;
-}
-.menu .idiomas img {
-  width: 1.5rem;
-}
-.menu .idiomas img:hover {
-  opacity: 0.5;
-} */
+
 
 .banner {
 
@@ -199,15 +185,6 @@ h1, h2, h3, h4, h5, h6, p {
   color: #9AA1A9;
 }
 
-
-
-/* .main .acerca-de-mi{
-  min-height: 100vh;
-  padding: 3rem 0;
-  background: #ffffff;
-  color: #000000;
-  margin-top: 4rem;
-} */
 .texto {
   padding: 1.5rem 0;
   background: #101010;
@@ -483,27 +460,7 @@ h6 {
   box-shadow: 0px 0px 20px 0px rgba(0, 0, 0, 0.12);
 }
 
-/* #header .logo h1 {
-  font-size: 26px;
-  margin: 0;
-  padding: 6px 0;
-  line-height: 1;
-  font-weight: 500;
-  letter-spacing: 3px;
-  text-transform: uppercase;
-}
 
-#header .logo h1 a,
-#header .logo h1 a:hover {
-  color: #2c4964;
-  text-decoration: none;
-}
-
-#header .logo img {
-  padding: 0;
-  margin: 0;
-  max-height: 40px;
-} */
 #header .foto_perfil {
   display: flex;
   align-items: center;
@@ -960,7 +917,7 @@ h6 {
 .skills .progress .skill {
   padding: 10px 0;
   margin: 0 0 6px 0;
-  text-transform: uppercase;
+  /* text-transform: uppercase; */
   display: block;
   font-weight: 600;
   font-family: "Poppins", sans-serif;
