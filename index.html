@@ -50,7 +50,7 @@
     </div>
   </nav>
 
-<div class="container">
+  <div class="container">
     <div class="row">
       <div class="col-sm-12">
         <aside class="banner">
@@ -59,9 +59,9 @@
             <!-- <img src="images/BannerLinkedIn.jpg" alt="Banner" title="Banner"> -->
           </div>
         </aside>
-       </div>
+      </div>
     </div>
-  </div > 
+  </div>
   <!-- ======= Header ======= -->
   <header id="header" class="d-flex align-items-center">
     <div class="container d-flex align-items-center justify-content-between">
@@ -72,7 +72,7 @@
       <nav id="navbar" class="navbar">
         <ul>
           <li><a class="nav-link scrollto active" href="#home">Inicio</a></li>
-          <li><a class="nav-link scrollto" href="#about">Acerca de mi</a></li>
+          <li><a class="nav-link scrollto" href="#about" id="aboutClick" onclick="about()">Acerca de mi</a></li>
           <li><a class="nav-link scrollto" href="#resume">Experiencia Laboral</a></li>
           <li><a class="nav-link scrollto" href="#skills">Habilidades</a></li>
           <li><a class="nav-link scrollto" href="#education">Educación</a></li>
@@ -91,7 +91,10 @@
     <section id="about" class="about">
 
       <div class="container">
+        <div class="section-title">
+          <h2>Acerca de mi</h2>
 
+        </div>
         <div class="row no-gutters">
 
           <div class="content d-flex flex-column justify-content-center">
@@ -107,8 +110,10 @@
                   backend; aprendiendo mucho y superando grandes
                   retos.<br><br>
 
-                  Desde el inicio de mi carrera he tenido que laborar
-                  para sustentar mis necesidades básicas;
+                  Estudio Ingeniería de Sistemas e Informática en la universidad Nacional Sede MedellínDesde el inicio
+                  de mi carrera he tenido que laborar
+                  para sustentar mis necesidades básicas; pues me vine de mi pueblo Salgar Antioquia y no tengo familia
+                  en la ciudad
                   afortunadamente conté con empresas que me
                   brindaron la posibilidad de iniciar mi experiencia laboral
                   y también el espacio para continuar con mis clases;
@@ -121,8 +126,8 @@
                   mejorar cada día como profesional y como persona<br><br>
 
 
-                  Me gusta la danza.Especialmente la danza arabe.Amo los animales en especial losgatos.Tengos
-                  dos.
+                  Me gusta la danza; especialmente la danza árabe. Amo los animales en especial los gatos;tengo
+                  dos .Me gustaría hablar en inglés; se me dificultad; pero estoy en ese proceso.
                 </span>
               </p>
             </div>
@@ -494,10 +499,11 @@
 
         <div class="section-title">
           <h2>Proyectos</h2>
-          <p>Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex aliquid fuga eum quidem. Sit sint
-            consectetur velit. Quisquam quos quisquam cupiditate. Et nemo qui impedit suscipit alias ea. Quia
-            fugiat sit
-            in iste officiis commodi quidem hic quas.</p>
+          <p>Estos proyectos demuestran mi capacidad para crear soluciones innovadoras.
+            También demuestran mi compromiso con el uso de la tecnología para mejorar la vida de las personas.
+
+            Estoy orgullosa de estos proyectos y creo que demuestran mi potencial como desarrolladora de software
+            creativa y original</p>
         </div>
 
         <div class="row">
@@ -512,21 +518,23 @@
         </div>
 
         <div class="row portfolio-container">
-
-          <div class="col-lg-4 col-md-6 portfolio-item filter-app">
-            <div class="portfolio-wrap">
-              <img src="images/portfolio/portfolio-1.png" class="img-fluid" alt="">
-              <div class="portfolio-info">
-                <h4>App 1</h4>
-                <p>App</p>
-              </div>
-              <div class="portfolio-links">
-                <a href="images/portfolio/portfolio-1.png" data-gallery="portfolioGallery" class="portfolio-lightbox"
-                  title="App 1"><i class="bx bx-plus"></i></a>
-                <a href="portfolio-details.html" title="More Details"><i class="bx bx-link"></i></a>
+          <a href="">
+            <div class="col-lg-4 col-md-6 portfolio-item filter-app">
+              <div class="portfolio-wrap">
+                <img src="images/portfolio/portfolio-1.png" class="img-fluid" alt="">
+                <div class="portfolio-info">
+                  <h4>Mi Portafolio</h4>
+                  <p>App</p>
+                </div>
+                <div class="portfolio-links">
+                  <a href="images/portfolio/portfolio-1.png" data-gallery="portfolioGallery" class="portfolio-lightbox"
+                    title="App 1"><i class="bx bx-plus"></i></a>
+                  <a href="portfolio-details.html" title="More Details"><i class="bx bx-link"></i></a>
+                </div>
               </div>
             </div>
-          </div>
+          </a>
+
 
           <div class="col-lg-4 col-md-6 portfolio-item filter-web">
             <div class="portfolio-wrap">

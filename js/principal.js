@@ -24,8 +24,8 @@ $('document').ready(function(){
     cargo .reveal(3000);
 
     var boton = document.getElementById('boton');
-        
-    $('#tagline').t({
+    function about(){
+      $('#tagline').t({
         beep:false,
         caret:'<span style="color:white;">•</span>',
         typing:function(elm,chr){
@@ -33,6 +33,11 @@ $('document').ready(function(){
             $('#pow-txt').show().delay(500).fadeOut(0);
         }
     });
+    }
+    const aboutClick = document.getElementById("aboutClick");
+    aboutClick.addEventListener("click", about);
+      
+ 
 
     $('#boton-arriba').click(function(){
         $('body, html').animate({

@@ -750,10 +750,12 @@ h6 {
   background: linear-gradient(180deg, #f2f6f9 0%, #fff 100%);
 }
 
+#about .section-title {
+  margin-top:20px
+}
 .section-title {
   margin-top:80px
 }
-
 .section-title h2 {
   font-size: 32px;
   font-weight: bold;
