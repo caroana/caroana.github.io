@@ -36,7 +36,13 @@ $('document').ready(function(){
     }
     const aboutClick = document.getElementById("aboutClick");
     aboutClick.addEventListener("click", about);
-      
+     
+       document.getElementById("verMas1").addEventListener("click", function() {
+       const portfolioWrap = this.parentNode.querySelector(".portfolio-wrap[id=\"" + this.getAttribute("portfolioProject") + "\"]");
+       portfolioWrap.querySelector("::before");
+      // portfolioWrap.querySelector("::before").style.opacity = 1;
+     });
+    
  
 
     $('#boton-arriba').click(function(){
