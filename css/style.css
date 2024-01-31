@@ -743,10 +743,15 @@ h6 {
 #education{
   padding: 5px 0; 
 }
+
 #portfolio{
   padding: 5px 0; 
 }
 .section-bg {
+  background: linear-gradient(180deg, #f2f6f9 0%, #fff 100%);
+}
+#education .container .row .col-lg-6 .resume-item h5{
+
   background: linear-gradient(180deg, #f2f6f9 0%, #fff 100%);
 }
 
@@ -1009,7 +1014,15 @@ h6 {
   background: #fff;
   border: 2px solid  #ff914d;
 }
-
+.certificate{
+  font-size: 15px;
+}
+.certificate i{
+  font-size: 25px;
+}
+.inst{
+  font-size: 18px;
+}
 /*--------------------------------------------------------------
 # Services
 --------------------------------------------------------------*/
