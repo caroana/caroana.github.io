@@ -159,7 +159,7 @@ h1, h2, h3, h4, h5, h6, p {
   min-height: 27.5rem;
   margin: 0 auto;
   border-radius: 0.625rem;
-  font-size:14px!important;
+  font-size:18px!important;
 }
 .texto img{
   border-top-left-radius:0.625rem ;
@@ -491,6 +491,17 @@ h6 {
   .toolbar .contenedor .contenedor-toolbar strong .cargo {
     font-size: calc(0.9rem + .9vw)!important;
   } 
+  .texto {
+    padding: 1.5rem 0;
+    background: #101010;
+    color: white;
+    font-family: monospace, Arial;
+    width: 100%;
+    min-height: 27.5rem;
+    margin: 0 auto;
+    border-radius: 0.625rem;
+    font-size:10px!important;
+  }
  
 }
 
