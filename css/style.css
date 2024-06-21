@@ -496,7 +496,7 @@ h6 {
     background: #101010;
     color: white;
     font-family: monospace, Arial;
-    width: 100%;
+    width: 92%;
     min-height: 27.5rem;
     margin: 0 auto;
     border-radius: 0.625rem;
@@ -532,6 +532,17 @@ h6 {
 
   .toolbar .contenedor .contenedor-toolbar strong .nombre{
     font-size: 0.5rem;
+  }
+  .texto {
+    padding: 1.5rem 0;
+    background: #101010;
+    color: white;
+    font-family: monospace, Arial;
+    width: 92%;
+    min-height: 22.5rem;
+    margin: 0 auto;
+    border-radius: 0.625rem;
+    font-size:10px!important;
   }
 
 }
