@@ -580,8 +580,8 @@ h1,h2,h3,h4,h5,h6 {
 
   .navbar-mobile .mobile-nav-toggle {
     position: absolute;
-    top: 475px;
-    right: 100px;
+    top: 330px;
+    right: 20px;
     font-size: 50px;
     color: grey;
     /* background-color: red; */
@@ -590,10 +590,10 @@ h1,h2,h3,h4,h5,h6 {
   .navbar-mobile ul {
     display: block!important;
     position: absolute;
-    top: 500px;
+    top: 350px;
     bottom:0px;
-    right: 50px;
-    left: 50px;
+    right: 0px;
+    left: 110px;
     padding: 10px 0;
     border-radius: 10px;
     background-color: #fff;
@@ -802,14 +802,13 @@ h1,h2,h3,h4,h5,h6 {
       flex-direction: column;
       align-items: center;
       justify-content: center;
-      min-height: 13rem;
+      min-height: 10rem;
     }
 
     .toolbar .logo {
       order: 2;
       height: auto;
       position:static;
-      margin-top: 0.14rem;
       display: flex;
       justify-content: center; /* Centra el logo horizontalmente */
       width: 100%;
@@ -817,8 +816,8 @@ h1,h2,h3,h4,h5,h6 {
 
     .toolbar .logo img {
       position: static;
-      width: 50%;
-      height:50%;
+      width: 40%;
+      height:40%;
       margin: 0;
       border-width:2px;
     }
@@ -882,13 +881,12 @@ h1,h2,h3,h4,h5,h6 {
       flex-direction: column;
       align-items: center;
       justify-content: center;
-      min-height: 15rem;
+      min-height: 12rem;
     }
     .toolbar .logo {
       order: 2;
       height: auto;
       position:static;
-      margin-top: 0.12rem;
       display: flex;
       justify-content: center; /* Centra el logo horizontalmente */
       width: 100%;
@@ -896,8 +894,8 @@ h1,h2,h3,h4,h5,h6 {
  
     .toolbar .logo img {
       position: static;
-      width: 65%;
-      height: 65%;
+      width: 50%;
+      height: 50%;
       margin: 0;
       border-width: 2px;
     }
